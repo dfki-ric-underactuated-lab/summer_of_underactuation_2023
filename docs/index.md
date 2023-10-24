@@ -53,11 +53,15 @@ Shubham Vyas gives a foreword on the Summer of Underactuation event 2023. The ev
 
 Reinforcement learning-based control for robots has been a popular research topic in recent years. It has demonstrated potential advantages over traditional control methods for nonlinear systems, including reduced reliance on model information and improved adaptability to model uncertainty and changes in control objectives. The double pendulum system is a widely studied control scenario. With its highly nonlinear dynamical model and chaotic behavior, it proves to be a challenge for underactuated control using conventional methods. Through the introduction of reinforcement learning techniques, a broader range of control possibilities will be explored.
 
+[Poster](static/figures/posters/1_Chi_Pendulum.pdf)
+
 <!-- <video src="static/videos/part_01/Mahdi_Javadi.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
 ## Analytical Inverse Kinematics of a 6R-U-S Parallel Kinematic Mechanism by Vinayvivian Rodrigues
 
 Parallel manipulators are widely employed in industrial automation, capitalizing on their kinematic precision and structural rigidity compared to serial counterparts. Interaction between humans and manipulators boosts productivity and product quality, highlighting safety as a paramount concern. Analytical Inverse kinematic formulation for a 6-RUS rigid parallel kinematic formulation is developed to show trajectory following capability in 3D space using position control framework. To validate the analytical formulation, a simulation of the same is developed in Pybullet physics-based simulator. Furthermore, a simulation model of a flexible 6-legged parallel manipulator is also proposed to show the continuum behavior of the parallel structure.
+
+[Poster](static/figures/posters/2_Vinay_PKM.pdf)
 
 <!-- <video src="static/videos/part_01/Paula_Stocco.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
@@ -65,11 +69,15 @@ Parallel manipulators are widely employed in industrial automation, capitalizing
 
 In underwater robotics drag and resistive forces are crucial to the performance of AUVs. Addressing these forces in control can decrease energy consumption and increase maneuverability. A Trajectory Optimization and Stabilization architecture is proposed for the underactuated DeepLeng AUV, developed during the EurEx-LUNa project. By adding a hydrodynamic model to the optimization problem, the planned trajectories exploit the hydrodynamic properties of the AUV. A time varying LQR based on the linearized hydrodynamic model stabilizes the AUV around the trajectory.
 
+[Poster](static/figures/posters/3_Lukas_DeepLeng.pdf)
+
 <!-- <video src="static/videos/part_01/Federico_Girlanda.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
 ## Control strategies for Rimless Wheel Micro-rover  by Dennis Schlee
 
 Rimless wheeled robots are a hybrid variant of traditionally wheeled and legged robots. These hybrid systems combine the benefits of both approaches, such as efficient power demands and good terrain traversability. However, the simplicity of the design of the rimless wheel has the disadvantage of limiting the flexibility on foot placement and the impacts caused on the body when navigating rigid surfaces. To tackle these disadvantages, a gait control system is proposed that pursues the minimization of the forces in these impact phases and therefore reduces vertical motion of the rover center body.
+
+[Poster](static/figures/posters/4_Dennis_Rimless.pdf)
 
 <!-- <video src="static/videos/part_02/Raghav_Soni.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
@@ -77,11 +85,15 @@ Rimless wheeled robots are a hybrid variant of traditionally wheeled and legged 
 
 Parkour presents a challenging environment that demands dynamic, robust, and precise movements from robotic systems. Traversing it with a one-legged hopper introduces additional challenges, such as planning over contacts, which necessitates a sophisticated controller. To tackle this, a control system is proposed, utilizing mixed integer programming for motion planning to determine a feasible and optimal path over an extended horizon. The execution of this path is achieved through a state machine employing a PD control scheme with feedforward torques, ensuring robust and accurate performance.
 
+[Poster](static/figures/posters/5_Max_Parkour.pdf)
+
 <!-- <video src="static/videos/part_02/Jungmin_Lim.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
 ## Mechatronic design and control of an underactuated 3-link brachiation robot by Shourie Grama Srinivas
 
 Brachiation, employed by monkeys like Gibbons, involves swinging between branches. 'Fast Brachiation' occurs during dynamic free flight phases. Studies focus on brachiation robots for tasks like agriculture, animal mimicry, and forest searches. RicMonk is a 3-link robot designed for Fast Brachiation. Its passive tail ensures optimal swing velocity. Overcoming challenges of underactuation and discontinuous motion, RicMonk currently achieves brachiation in both forward and backward directions. Contribution includes optimal design, trajectory generation, and stabilization for a 3-link underactuated robot.
+
+[Poster](static/figures/posters/6_Shourie_RicMonk.pdf)
 
 <!-- <video src="static/videos/part_02/Pelayo_Penarroya.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
@@ -91,14 +103,20 @@ Imagine you are developing a robot, like a quadruped. To set up its controller a
 
 To address these challenges, Skidy was implemented. A tool for symbolic closed form code generation of the equations of motion and its derivatives for serial and open chain robots. Skidy 	is easy to use, and can generate code in several languages, including Python, C++ and Julia.
 
+[Poster](static/figures/posters/7_Hannah_Skiddy.pdf)
+
 <!-- <video src="static/videos/part_02/Gabriele_Fadini.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
 ## A Recursive Lie-Group Formulation for the Second-Order Time Derivatives of the Inverse Dynamics of Parallel Kinematic Manipulators by Mihir Paygude
 
 Series elastic actuators (SEA) were introduced for serial robotic arms. Model-based trajectory tracking control of SEAs’ which requires the calculation of second-order time derivatives has not been studied in literature yet. These derivatives provide crucial insights into the dynamic behavior and performance of the manipulator. To estimate the time derivatives, we need a computationally efficient algorithm for second-order time derivatives of the inverse dynamic solution. The special topology of PKM is utilized reusing the recursive algorithm for estimation of the inverse dynamics of serial robots. The algorithm takes into account the Lie Group formulation and all the relations within the framework of the manipulator, providing accurate and efficient results for a 6-DOF Gough Stewart platform.
 
+[Poster](static/figures/posters/8_Mihir_2ndOrder.pdf)
+
 <!-- <video src="static/videos/part_02/Antonio_Lopez_Rivera.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
 ## Mixed-Integer MPC for Free-floating platform with binary thrusters and reaction wheel by Franek Stark
 
 Satellites, spacecraft and other floating devices equipped with thrusters are subject to thruster timing and activation constraints. Moreover, they are usually equipped with reaction wheels for more precise alignment, which must not saturate. Traditional control methods cannot take these constraints into account, making precise control difficult. For ESA's Orbital Robotics and GNC Lab's 3-DOF free-floating platform, equipped with binary thrusters and a reaction wheel, a real-time capable Mixed Integer MPC was developed. It allows optimal control while respecting all system constraints.
+
+[Poster](static/figures/posters/9_Franek_MPC.pdf)
