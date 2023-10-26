@@ -19,7 +19,7 @@ The [Underactuated Lab](https://robotik.dfki-bremen.de/en/research/research-faci
 | 12:30 - 12:35  | [Reinforcement Learning Based Underactuated control of double pendulum](#reinforcement-learning-based-underactuated-control-of-double-pendulum-by-chi-zhang)                            | Chi Zhang         |
 | 12:35 - 12:40  | [Analytical Inverse Kinematics of a 6R-U-S Parallel Kinematic Mechanism](#analytical-inverse-kinematics-of-a-6r-u-s-parallel-kinematic-mechanism-by-vinayvivian-rodrigues)                                                | Vinayvivian Rodrigues         |
 | 12:40 - 12:45  | [Trajectory Optimization and Stabilization for Underactuated AUVs](#trajectory-optimization-and-stabilization-for-underactuated-auvs-by-lukas-rust)                  | Lukas Rust    |
-| 12:45 - 12:50  | [Control strategies for a Rimless Wheel Micro-rover](#control-strategies-for-a-rimless-wheel-micro-rover-by-dennis-schlee) | Dennis Schlee          |
+| 12:45 - 12:50  | [Control Strategies for a Rimless Wheel Micro-Rover](#control-strategies-for-a-rimless-wheel-micro-rover-by-dennis-schlee) | Dennis Schlee          |
 | 12:50 - 12:55  | [Control of Dynamic Parkour Motions for a Hopping Leg on a Broomstick](#control-of-dynamic-parkour-motions-for-a-hopping-leg-on-a-broomstick-leg-by-maximilian-albracht)                                                      | Maximilian Albracht          |
 | 12:55 - 13:00  | [Mechatronic design and control of an underactuated 3-link brachiation robot ](#mechatronic-design-and-control-of-an-underactuated-3-link-brachiation-robot-by-shourie-grama-srinivas)       | Shourie Grama Srinivas     |
 | 13:00 - 13:05  | [Skidy – a new tool for closed form solution of the equations of motion for open chain robots](#skidy-–-a-new-tool-for-closed-form-solution-of-the-equations-of-motion-for-open-chain-robots-by-hannah-isermann)                                            | Hannah Isermann      |
@@ -64,7 +64,7 @@ Parallel manipulators are widely employed in industrial automation, capitalizing
 
 <!-- <video src="static/videos/part_01/Paula_Stocco.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
-## Trajectory Optimization and Stabilization for Underactuated AUVs  by Lukas Rust
+## Trajectory Optimization and Stabilization for Underactuated AUVs by Lukas Rust
 
 In underwater robotics drag and resistive forces are crucial to the performance of AUVs. Addressing these forces in control can decrease energy consumption and increase maneuverability. A Trajectory Optimization and Stabilization architecture is proposed for the underactuated DeepLeng AUV, developed during the EurEx-LUNa project. By adding a hydrodynamic model to the optimization problem, the planned trajectories exploit the hydrodynamic properties of the AUV. A time varying LQR based on the linearized hydrodynamic model stabilizes the AUV around the trajectory.
 
@@ -72,7 +72,7 @@ In underwater robotics drag and resistive forces are crucial to the performance 
 
 <!-- <video src="static/videos/part_01/Federico_Girlanda.mp4" controls="controls" style="max-width: 48em;"> </video> -->
 
-## Control strategies for a Rimless Wheel Micro-rover  by Dennis Schlee
+## Control Strategies for a Rimless Wheel Micro-Rover by Dennis Schlee
 
 Rimless wheeled robots are a hybrid variant of traditionally wheeled and legged robots. These hybrid systems combine the benefits of both approaches, such as efficient power demands and good terrain traversability. However, the simplicity of the design of the rimless wheel has the disadvantage of limiting the flexibility on foot placement and the impacts caused on the body when navigating rigid surfaces. To tackle these disadvantages, a gait control system is proposed that pursues the minimization of the forces in these impact phases and therefore reduces vertical motion of the rover center body.
 
