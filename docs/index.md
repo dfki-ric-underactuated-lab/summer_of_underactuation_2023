@@ -40,13 +40,13 @@ In the following, you can find the proceedings from the event with the talks and
 
 This talk by Dr. Shivesh Kumar introduces the inception of the Underactuated Robotics lab at DFKI in 2021. This marks the beginning of the *skunkworks-style* lab at DFKI and its progress since then is presented.
 
-<!-- <video src="static/videos/part_01/Frank_Kirchner.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/Foreword_Shivesh_Kumar.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Foreword: Summer of Underactuation 2023 by Shubham Vyas
 
 Shubham Vyas gives a foreword on the Summer of Underactuation event 2023. The event is hosted by the underactuated lab which has been established at DFKI Robotics Innovation Center since 2021. This talk presents the roadmap and vision for the lab for the next year.
 
-<!-- <video src="static/videos/part_01/Shivesh_Kumar.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/Foreword_Shubham_Vyas.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Reinforcement Learning Based Underactuated control of double pendulum by Chi Zhang
 
@@ -54,7 +54,7 @@ Reinforcement learning-based control for robots has been a popular research topi
 
 [Poster](static/figures/posters/1_Chi_Pendulum.pdf)
 
-<!-- <video src="static/videos/part_01/Mahdi_Javadi.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/1_Chi_Zhang.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Analytical Inverse Kinematics of a 6R-U-S Parallel Kinematic Mechanism by Vinayvivian Rodrigues
 
@@ -62,7 +62,7 @@ Parallel manipulators are widely employed in industrial automation, capitalizing
 
 [Poster](static/figures/posters/2_Vinay_PKM.pdf)
 
-<!-- <video src="static/videos/part_01/Paula_Stocco.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/2_Vinay_Rodrigues.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Trajectory Optimization and Stabilization for Underactuated AUVs by Lukas Rust
 
@@ -70,7 +70,7 @@ In underwater robotics drag and resistive forces are crucial to the performance 
 
 [Poster](static/figures/posters/3_Lukas_DeepLeng.pdf)
 
-<!-- <video src="static/videos/part_01/Federico_Girlanda.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/3_Lukas_Rust.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Control Strategies for a Rimless Wheel Micro-Rover by Dennis Schlee
 
@@ -78,7 +78,7 @@ Rimless wheeled robots are a hybrid variant of traditionally wheeled and legged 
 
 [Poster](static/figures/posters/4_Dennis_Rimless.pdf)
 
-<!-- <video src="static/videos/part_02/Raghav_Soni.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/4_Dennis_Schlee.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Control of Dynamic Parkour Motions for a Hopping Leg on a Broomstick Leg by Maximilian Albracht
 
@@ -86,7 +86,7 @@ Parkour presents a challenging environment that demands dynamic, robust, and pre
 
 [Poster](static/figures/posters/5_Max_Parkour.pdf)
 
-<!-- <video src="static/videos/part_02/Jungmin_Lim.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/5_Max_Albracht.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Mechatronic design and control of an underactuated 3-link brachiation robot by Shourie Grama Srinivas
 
@@ -94,7 +94,7 @@ Brachiation, employed by monkeys like Gibbons, involves swinging between branche
 
 [Poster](static/figures/posters/6_Shourie_RicMonk.pdf)
 
-<!-- <video src="static/videos/part_02/Pelayo_Penarroya.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/6_Grama_Srinivas_Shourie.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Skidy – a new tool for closed form solution of the equations of motion for open chain robots by Hannah Isermann
 
@@ -104,7 +104,7 @@ To address these challenges, Skidy was implemented. A tool for symbolic closed f
 
 [Poster](static/figures/posters/7_Hannah_Skiddy.pdf)
 
-<!-- <video src="static/videos/part_02/Gabriele_Fadini.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/7_Hannah_Isermann.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## A Recursive Lie-Group Formulation for the Second-Order Time Derivatives of the Inverse Dynamics of Parallel Kinematic Manipulators by Mihir Paygude
 
@@ -112,10 +112,12 @@ Series elastic actuators (SEA) were introduced for serial robotic arms. Model-ba
 
 [Poster](static/figures/posters/8_Mihir_2ndOrder.pdf)
 
-<!-- <video src="static/videos/part_02/Antonio_Lopez_Rivera.mp4" controls="controls" style="max-width: 48em;"> </video> -->
+<video src="static/videos/8_Mihir_Paygude.mp4" controls="controls" style="max-width: 48em;"> </video>
 
 ## Mixed-Integer MPC for Free-floating platform with binary thrusters and reaction wheel by Franek Stark
 
 Satellites, spacecraft and other floating devices equipped with thrusters are subject to thruster timing and activation constraints. Moreover, they are usually equipped with reaction wheels for more precise alignment, which must not saturate. Traditional control methods cannot take these constraints into account, making precise control difficult. For ESA's Orbital Robotics and GNC Lab's 3-DOF free-floating platform, equipped with binary thrusters and a reaction wheel, a real-time capable Mixed Integer MPC was developed. It allows optimal control while respecting all system constraints.
 
 [Poster](static/figures/posters/9_Franek_MPC.pdf)
+
+<video src="static/videos/9_Franek_Stark.mp4" controls="controls" style="max-width: 48em;"> </video>
